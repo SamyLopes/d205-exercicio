@@ -1,0 +1,140 @@
+body {
+    margin:0;
+}
+
+
+
+h1 {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 40pt;
+    background-color: #fdc500;
+    margin: 0;
+}
+
+.letras-erradas {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    font-size:20pt;
+    font-weight: bold;
+    margin: auto;
+}
+
+#main {
+    background-color: aquamarine;
+    display: grid;
+    grid-auto-columns: 30px 30px 30px 30px;
+    grid-auto-rows: 30px 30px 30px 30px;
+    grid-template-areas:
+    "d1 d2 d3 d4"
+    "d5 d6 d7 d8"
+    "d9 d10 d11 d12"
+    "d13 d14 d15 d16"
+}
+
+
+.d1 {
+    grid-area: d1;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d2 {
+    grid-area: d2;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d3 {
+    grid-area: d3;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d4 {
+    grid-area: d4;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d5 {
+    grid-area: d5;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d6 {
+    grid-area: d6;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d7 {
+    grid-area: d7;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d8 {
+    grid-area: d8;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d9 {
+    grid-area: d9;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d10 {
+    grid-area: d10;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d11 {
+    grid-area: d11;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d12 {
+    grid-area: d12;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d13 {
+    grid-area: d13;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d14 {
+    grid-area: d14;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d15 {
+    grid-area: d15;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
+
+.d16 {
+    grid-area: d16;
+    display: flex;
+    background-color: lightgoldenrodyellow;
+}
