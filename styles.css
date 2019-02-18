@@ -14,27 +14,36 @@ h1 {
     color: black;
     font-family: 'Pacifico', cursive;
     font-size: 40pt;
-    background-color: #fdc500;
+    background-color: #b61e2b;
+    /*#fdc500;*/
     margin: 0;
 }
 
 .letras-erradas {
     display: flex;
-	flex-direction: row;
+    flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	align-content: center;
+    font-size: 30pt;
+    font-family: 'VT323', monospace;
+}
+
+.forca-e-dica {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
     align-content: center;
-    font-size:20pt;
-    font-weight: bold;
-    margin: auto;
+    margin: 20px;
 }
 
 #main {
-    background-color: aquamarine;
     display: grid;
-    grid-auto-columns: 30px 30px 30px 30px;
-    grid-auto-rows: 30px 30px 30px 30px;
+    grid-auto-columns: 200px 200px 200px 200px;
+    grid-auto-rows: auto;
     grid-template-areas:
     "d1 d2 d3 d4"
     "d5 d6 d7 d8"
@@ -46,95 +55,205 @@ h1 {
 .d1 {
     grid-area: d1;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.linha-especial {
+    width: 25px;
+    height: 100px;
 }
 
 .d2 {
     grid-area: d2;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
 }
 
 .d3 {
     grid-area: d3;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
 }
 
 .d4 {
     grid-area: d4;
     display: flex;
-    background-color: lightgoldenrodyellow;
 }
 
 .d5 {
     grid-area: d5;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.linha-vertical {
+    width: 100px;
+    height: 100px;
 }
 
 .d6 {
     grid-area: d6;
     display: flex;
-    background-color: lightgoldenrodyellow;
 }
 
 .d7 {
     grid-area: d7;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.cabeca {
+    width: 150px;
+    height: 150px;
 }
 
 .d8 {
     grid-area: d8;
     display: flex;
-    background-color: lightgoldenrodyellow;
 }
 
 .d9 {
     grid-area: d9;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
 }
 
 .d10 {
     grid-area: d10;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.mao {
+    width: 120px;
+    height: 120px;
 }
 
 .d11 {
     grid-area: d11;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.corpo {
+    width: 110px;
+    height: 110px;
 }
 
 .d12 {
     grid-area: d12;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.mao-2 {
+    width: 120px;
+    height: 120px;
 }
 
 .d13 {
     grid-area: d13;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
 }
 
 .d14 {
     grid-area: d14;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.pe-1 {
+    width: 100px;
+    height: 100px;
 }
 
 .d15 {
     grid-area: d15;
     display: flex;
-    background-color: lightgoldenrodyellow;
 }
 
 .d16 {
     grid-area: d16;
     display: flex;
-    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+.pe-2 {
+    width: 100px;
+    height: 100px;
+}
+
+.dica {
+    width: auto;
+    height: auto;
+}
+
+.dica p {
+    font-family: 'VT323', monospace;
+    font-size: 40pt;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold
+}
+
+footer {
+    font-family: 'VT323', monospace;
+    /*font-family: 'Bungee Inline', cursive;*/
+    font-size: 35pt;
+    background-color: #b61e2b;
+}
+
+.frase-ou-palavra {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    align-content: center;
+    margin: 0;
+}
+
+.acertos {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+    margin: 0;
+}
+
+.oculta {
+    display: none;
+}
+
+.palavra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    border: 4px solid black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    background-color: #b61e2b;
+    margin-left: 10px;
+}
+
+#letraDigitada {
+    width: 40px;
+    height: 40px;
+    color: #b61e2b;
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
 }

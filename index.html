@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JOGO DA FORCA</title>
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
@@ -17,40 +19,114 @@
     </header>
 
 
-    <section class="letras-erradas">
-        <p>A - B - C -D -E</p>
+    <section>
+        <p class="letras-erradas"></p>
     </section>
 
 
-    <section>
+    <section class="forca-e-dica">
         <div id="main">
-            <div class="d1"></div>
-            <div class="d2"></div>
-            <div class="d3"></div>
+            <div class="d1">
+                <img class="linha-especial" class="linha-vertical" src="partes-do-mickey/linha-horizontal-png.png" alt="">
+            </div>
+
+
+            <div class="d2">
+                <img class="linha-vertical" src="partes-do-mickey/linha-horizontal-png.png" alt="">
+            </div>
+
+
+            <div class="d3">
+                <img class="linha-vertical" src="partes-do-mickey/linha-horizontal-png.png" alt="">
+            </div>
+
+                
             <div class="d4"></div>
 
-            <div class="d5"></div>
+
+            <div class="d5">
+                <img class="linha-vertical" src="partes-do-mickey/linha-vertical-png.png" alt="">
+            </div>
+                
+
             <div class="d6"></div>
-            <div class="d7"></div>
+
+
+            <div class="d7">
+                <img class="cabeca oculta" id="erro1" src="partes-do-mickey/cabeça-do-mickey-em-png-1.png" alt="">
+            </div>
+
+
             <div class="d8"></div>
 
-            <div class="d9"></div>
-            <div class="d10"></div>
-            <div class="d11"></div>
-            <div class="d12"></div>
 
-            <div class="d13"></div>
-            <div class="d14"></div>
+            <div class="d9">
+                <img class="linha-vertical" src="partes-do-mickey/linha-vertical-png.png" alt="">
+            </div>
+
+
+            <div class="d10">
+                <img class="mao oculta" id="erro2" src="partes-do-mickey/mão-1-mickey-png.png" alt="">
+            </div>
+
+
+            <div class="d11">
+                <img class="corpo oculta" id="erro3" src="partes-do-mickey/calça-do-mickey-png.png" alt="">
+            </div>
+
+
+            <div class="d12">
+                <img class="mao-2 oculta" id="erro4" src="partes-do-mickey/mão-2-mickey-png.png" alt="">
+            </div>
+
+
+            <div class="d13">
+                <img class="linha-vertical" src="partes-do-mickey/linha-vertical-png.png" alt="">
+            </div>
+
+
+            <div class="d14">
+                <img class="pe-1 oculta" id="erro5" src="partes-do-mickey/pe-mickey-png.jpg" alt="">
+            </div>
+
+
             <div class="d15"></div>
-            <div class="d16"></div>
+
+
+            <div class="d16">
+                <img class="pe-2 oculta" id="erro6" src="partes-do-mickey/pe-2-mickey-png.jpg" alt="">
+            </div>
+
+
+        </div>
+        
+
+        <div class="dica">
+            <p>Dica: Palavra de 14 letras relacionada as ruas de algumas cidades.</p>
         </div>
 
-
-        <div></div>
     </section>
 
 
     <footer>
+        <p class="frase-ou-palavra">Palavra sorteada</p>
+        <div class="palavra">
+            <div class="quadrado" id="letra1"></div>
+            <div class="quadrado" id="letra2"></div>
+            <div class="quadrado" id="letra3"></div>
+            <div class="quadrado" id="letra4"></div>
+            <div class="quadrado" id="letra5"></div>
+            <div class="quadrado" id="letra6"></div>
+            <div class="quadrado" id="letra7" ></div>
+            <div class="quadrado" id="letra8" ></div>
+            <div class="quadrado" id="letra9" ></div>
+            <div class="quadrado" id="letra10" ></div>
+            <div class="quadrado" id="letra11" ></div>
+            <div class="quadrado" id="letra12" ></div>
+            <div class="quadrado" id="letra13" ></div>
+            <div class="quadrado" id="letra14" ></div>
+        </div>
+        <input type="text" id="letraDigitada">
 
     </footer>
 
